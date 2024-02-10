@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-family: 'Prompt', sans-serif;
+}
+
+.button {
+    @apply px-5 py-2 bg-blue-600 rounded-md hover:bg-blue-700 transition text-center; 
+}
+
+.btn {
+    @apply text-black dark:text-white bg-transparent border-2 border-blue-600 hover:bg-blue-600 hover:border-blue-600
+}
+
+.btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700;
+}
+
+.btn-gray {
+    @apply btn-circle bg-transparent text-black dark:text-white border-2 border-slate-600 hover:bg-slate-600 hover:border-slate-600;
+}
+
+.btn-secondary{
+    @apply bg-slate-600 border-slate-600 hover:bg-slate-700 hover:border-slate-700
+}
+
+.page {
+    @apply px-2 border-2 border-blue-500 py-1 text-white peer-checked:bg-blue-500 rounded-xl
+}
+
+.card {
+    @apply rounded-xl bg-slate-300 dark:bg-slate-800 text-white px-4 py-4 text-left overflow-hidden transition;
+}
+
+.display-none {
+    @apply hidden;
+}
+
+.navbar-fixed {
+    @apply fixed backdrop-blur-lg bg-opacity-5 border-b-[1px] border-slate-700 z-[99];
+}
+
+.hamburger-active > span:nth-child(1) {
+    @apply rotate-45 translate-y-[7px];
+}
+
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0
+}
+
+.hamburger-active > span:nth-child(3) {
+    @apply -rotate-45 -translate-y-[7px];
+}

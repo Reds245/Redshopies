@@ -1,0 +1,20 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "dev1": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shrutibalasa/tailwind-grid-auto-fit": "^1.1.0",
+    "daisyui": "^4.6.1",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1"
+  }
+}

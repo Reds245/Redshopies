@@ -4,7 +4,7 @@ I created this project to learn and improve my skills with Tailwindcss as well a
 
 <h2>Demo</h2>
 
-[Live Preview](https://c352583d-f3dd-4b9b-936a-1f654f05276c-00-i4exbiruyzwa.pike.replit.dev/public/index.html)
+[Live Preview](https://reds245.github.io/Redshopies/)
 
 <h2>Installation</h2>
 
